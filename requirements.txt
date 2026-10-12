@@ -1,0 +1,2 @@
+# Runtime and offline tests use only the Python standard library (Python >=3.9).
+# External executable for live requests: curl. No pip packages are required.

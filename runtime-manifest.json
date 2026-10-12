@@ -1,0 +1,53 @@
+{
+  "schema_version": "runtime-manifest-v1",
+  "runtime": {
+    "python_minimum": "3.9",
+    "python_package_dependencies": [],
+    "external_executables": [
+      "curl"
+    ],
+    "optional_executables": [
+      "git (download/update only)"
+    ]
+  },
+  "reference_environment": {
+    "python": "3.9.6",
+    "os": "Darwin",
+    "architecture": "arm64",
+    "curl": "curl 8.7.1 (x86_64-apple-darwin25.0) libcurl/8.7.1 (SecureTransport) LibreSSL/3.3.6 zlib/1.2.12 nghttp2/1.68.0"
+  },
+  "credentials": {
+    "required_for_live": [
+      "TIKHUB_API_KEY"
+    ],
+    "optional": [
+      "JUSTONE_API_TOKEN"
+    ],
+    "required_for_replay": []
+  },
+  "network": {
+    "live_hosts": [
+      "api.tikhub.io"
+    ],
+    "optional_hosts": [
+      "api.justoneapi.com"
+    ],
+    "replay_network": false
+  },
+  "state": {
+    "user_run_directory": "explicit --run/--out; excluded from version control",
+    "historical_fixture": "examples/fde-20261012/snapshot.json",
+    "frozen_hashes": "examples/checksums.json"
+  },
+  "capabilities": {
+    "local_files": true,
+    "python_execution": true,
+    "host_language_model_for_editorial": true,
+    "extra_model_api_key": false
+  },
+  "platform_validation": {
+    "macOS": "local and clean venv validation",
+    "Windows": "implementation includes file locking branch; not device-tested",
+    "Linux": "standard library intended; not host-tested"
+  }
+}

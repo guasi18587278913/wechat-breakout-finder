@@ -1,0 +1,46 @@
+{
+  "schema_version": "wechat-breakout-v1",
+  "method_version": "recent-three-controls-v1",
+  "data_kind": "live",
+  "topic": "FDE / Forward Deployed Engineer",
+  "purpose": "寻找公众号低日常阅读账号中的高表现文章，并提供正文支持的选题建议。",
+  "keywords": [
+    "FDE",
+    "Forward Deployed Engineer",
+    "前线部署工程师",
+    "前沿部署工程师"
+  ],
+  "include": [
+    "FDE 岗位与职业发展",
+    "企业 AI 落地与交付",
+    "FDE 获客与商业实践",
+    "FDE 方法、案例与入门资料"
+  ],
+  "exclude": [
+    "FED 美联储",
+    "无企业落地语境的泛 AI",
+    "纯前端开发"
+  ],
+  "search_window": "half_year",
+  "search_sort": "hot",
+  "max_candidates": 7,
+  "max_requests": 50,
+  "budget_usd": "0.50",
+  "comparison": {
+    "baseline_count": 3,
+    "min_history_age_days": 7,
+    "small_baseline_lt": 1000,
+    "min_ratio": 3,
+    "extra_top_accounts": 2,
+    "extra_baseline_count": 2,
+    "history_pages": 1,
+    "time_field": "create_time"
+  },
+  "justone": {
+    "enabled": false,
+    "max_probe_requests": 2,
+    "budget_cny": null,
+    "unit_cny": null
+  },
+  "paid_authorization": "pending"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "公众号小号爆款发现"
+  short_description: "按主题检索公众号文章，核验同号异常阅读，输出有原文依据的选题报告"
+  default_prompt: "使用 $wechat-breakout-finder 查找 FDE 相关公众号小号爆款，先说明研究范围和费用。"

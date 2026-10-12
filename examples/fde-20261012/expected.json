@@ -1,0 +1,46 @@
+{
+  "search_candidates": 102,
+  "raw_search_rows": 144,
+  "verified_candidates": 7,
+  "control_rows": 25,
+  "requests": 50,
+  "successful_requests": 46,
+  "failed_requests": 4,
+  "results": {
+    "顶级程序员之路": [
+      36607,
+      74,
+      494.69
+    ],
+    "FDE脑洞局": [
+      14991,
+      186,
+      80.6
+    ],
+    "FDE部署": [
+      9232,
+      291,
+      31.73
+    ],
+    "FDE前线": [
+      11907,
+      522,
+      22.81
+    ],
+    "志雄 FDE": [
+      7081,
+      162,
+      43.71
+    ],
+    "FormulaLab": [
+      9990,
+      316,
+      31.61
+    ],
+    "PM杨堃": [
+      25715,
+      1268,
+      20.28
+    ]
+  }
+}
